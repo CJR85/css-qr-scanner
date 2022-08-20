@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background: #111;
 }
 
 .scan {
@@ -26,5 +27,15 @@ body {
   width: 400px;
   height: 400px;
   background: url(QR_Code01.png);
+  background-size: 400px;
+}
+
+.scan .qrcode::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(QR_Code02.png);
   background-size: 400px;
 }
