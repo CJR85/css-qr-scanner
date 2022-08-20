@@ -71,3 +71,20 @@ body {
     top: calc(100% - 20px);
   }
 }
+
+.border {
+  position: absolute;
+  inset: 0;
+  background: url(border.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+
+.scan h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-top: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 60px #fff);
+}
